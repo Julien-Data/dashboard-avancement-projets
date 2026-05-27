@@ -1,4 +1,4 @@
-# Suivi des projets – Sanitoral
+# Avancement des projets – Sanitoral
 Dashboard réalisé avec Power BI
 
 ## 1. Contexte
@@ -40,12 +40,43 @@ Le nettoyage et la préparation doivent être entièrement automatisés via Powe
 - Conception du tableau de bord Power BI et création d’un onglet documentaire dédié  
 - Mise en place de visuels lisibles et adaptés à l’analyse des performances
 
-## 5. Livraison attendue
 
-- Dashboard Power BI complet et filtrable  
-- Onglet documentaire (PSC, procédure de mise à jour, modèle de données)  
-- Mockup / prototype validé en amont  
-- Exemple d’un axe stratégique appuyé par les indicateurs clés du reporting
+## 5. Aperçu du dashboard
+
+Capture d’écran du rapport Power BI :
+
+![Dashboard Power BI](images/dashboard-sanitoral.png)
+
+
+## 6. Structure du rapport Power BI
+
+Le projet est contenu dans un seul fichier Power BI (.pbix) organisé en 5 onglets :
+
+1. **Dashboard**
+   - Visualisations principales
+   - Suivi des KPI
+   - Analyse interactive des données
+
+2. **Page drill-through**
+   - détails des besoins utilisateurs
+   - tableau des projets en alerte
+   - tableau des phases en alerte
+
+3. **Mise à jour (Power Query)**
+   - Nettoyage des données
+   - Transformation et création de colonnes
+   - Harmonisation des sources
+
+4. **Schéma de données**
+   - Modèle relationnel
+   - Relations entre tables
+   - Optimisation pour l’analyse
+
+5. **Product Strategy Canvas**
+   - Identification des besoins utilisateurs
+   - Problématiques métier
+   - Indicateurs attendus
+
 
 
 
